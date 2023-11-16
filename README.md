@@ -58,17 +58,18 @@ This project demonstrates how to control two LEDs connected to GPIO pins on a Ra
   ![Hardware setup](https://github.com/nithishravella10/simple-rpi-led-project/blob/main/hardware-setup.jpg)
 ## Installation and Usage
 
-1. Clone the repository to your Raspberry Pi:
+1. Move to a folder where you want to copy the project folder on Raspberry Pi.  
+   Clone the repository to your Raspberry Pi:
 
    ```bash
    git clone https://github.com/nithishravella10/simple-rpi-led-project.git
    
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
    ```bash
    cd simple-rpi-led-project
 
-3. Run the project:
+4. Run the project:
 
    ```bash
    python simple-rpi-led-project-rev1.py
