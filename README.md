@@ -22,8 +22,6 @@ This project demonstrates how to control two LEDs connected to GPIO pins on a Ra
 - Two LEDs (red and green)
 - Two Resistors (appropriate values for the LEDs, > 200 ohms should provide a safe current for the LED)
 - Jumper wires
-#### Hardware setup:
-  ![Hardware setup](https://github.com/nithishravella10/simple-rpi-led-project/blob/main/hardware-setup.jpg)
 
 ### Software Requirements
 
@@ -56,6 +54,8 @@ This project demonstrates how to control two LEDs connected to GPIO pins on a Ra
 
    - Double-check your wiring to ensure all connections are secure.
    - Confirm that the GPIO pins match the ones specified in the code.
+#### Hardware setup:
+  ![Hardware setup](https://github.com/nithishravella10/simple-rpi-led-project/blob/main/hardware-setup.jpg)
 ## Installation and Usage
 
 1. Clone the repository to your Raspberry Pi:
@@ -71,6 +71,6 @@ This project demonstrates how to control two LEDs connected to GPIO pins on a Ra
 3. Run the project:
 
    ```bash
-   python led_project.py
+   python simple-rpi-led-project-rev1.py
 ## Conclusion
 This simple Raspberry Pi LED project demonstrates the basics of controlling LEDs using GPIO pins. Through the hardware setup and code implementation, you've gained hands-on experience with Raspberry Pi GPIO and Python programming. Next step is to try something more advanced, like controlling these LEDs remotely. Keep exploring and use ChatGPT for more fun!
